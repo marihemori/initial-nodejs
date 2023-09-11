@@ -1,0 +1,33 @@
+{
+  "name": "initial-nodejs",
+  "version": "1.0.0",
+  "description": "Basic knowledge about Node.js",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marihemori/initial-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marihemori/initial-nodejs/issues"
+  },
+  "homepage": "https://github.com/marihemori/initial-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
+}
